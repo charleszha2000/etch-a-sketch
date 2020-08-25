@@ -1,0 +1,40 @@
+#main {
+    width:960px;
+    height:960px;
+    position:absolute;
+    background-color: white;
+    border-color:black;
+    border-style:solid;
+    border-width:2px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:grid;
+    grid-template-rows: repeat(16, auto);
+    grid-template-columns: repeat(16, auto);
+}
+
+.grid-box{
+    width: 58px;
+    height: 58px;
+    margin: 0px 0px 0px 0px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style:solid;
+}
+
+.filled-in {
+    background-color:black;
+}
+
+body {
+    font-size: 24px;
+}
+button {
+    font-size: 24px;
+}
+
+div {
+    user-select: none;
+    -webkit-user-drag: none;
+}
